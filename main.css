@@ -1,0 +1,103 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #07d6f6;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #444;
+    margin-top: 0; /* Reset the margin top */
+    padding-top: 0; /* Reset the padding top */
+   
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 40px;
+    
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    max-width: 1268.8px;
+    margin-bottom: 10px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease; /* Adding transition for smooth effect */
+}
+
+.navbar ul li a:hover {
+    color: #ffd700; /* Change color on hover */
+}
+
+main {
+    flex: 2;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+aside {
+    flex: 1;
+    padding: 20px;
+
+    background-color: #f2f2f2;
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #07d6f6;
+    color: #000000;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Adding a border around the table */
+}
+
+th, td {
+    padding: 12px; /* Adjust padding for cells */
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Adding border bottom for rows */
+}
+
+th {
+    background-color: #f2f2f2; /* Setting background color for header cells */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Setting background color for even rows */
+}
+
+tr:hover {
+    background-color: #f2f2f2; /* Highlighting row on hover */
+}
